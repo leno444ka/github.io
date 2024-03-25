@@ -1,0 +1,9 @@
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+nav {
+    margin-bottom: 20px;
+}
