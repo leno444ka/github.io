@@ -1,0 +1,35 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">На главную</a>
+        </nav>
+    </header>
+    <form class="bebra" action="/" method="post">
+        <h1>Авторизация</h1>
+        <fieldset>
+            <legend>логин</legend>
+            <input type="text" placeholder="Введите логин" name="uname" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>пароль</legend>
+            <input type="password" placeholder="Введите пароль" name="psw" required>
+        </fieldset>
+
+        <div>
+            <label><button formnovalidate type="submit">Отправить</button>
+        </div>
+
+    </form>
+
+</html>

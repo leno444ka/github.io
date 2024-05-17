@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">На главную</a>
+        </nav>
+    </header>
+    <form action="/" method="post">
+        <h1>Обратная связь</h1>
+        <fieldset>
+            <legend>ФИО</legend>
+            <label><input type="text" placeholder="ФИО" required></input></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ваш email:</legend>
+            <label><input type="email" placeholder="Email" required></input></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Откуда Вы о нас узнали?</legend>
+            <label><input type="radio" name="primer">Реклама<input type="radio" name="primer">От друзей<input
+                    type="radio" name="primer">От университета</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Тип обращения</legend>
+            <select>
+                <option>Жалоба</option>
+                <option>Благодарность</option>
+                <option>Сотрудничество</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Текст сообщения:</legend>
+            <label><textarea placeholder="Введите ваше сообщение"></textarea><label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Вложения</legend>
+            <label><input type="file" value="Выберите файл"><label>
+        </fieldset>
+
+        <label>
+            <input type="checkbox" name="a" value="1" checked>даю согласие на обработку персональных данных
+
+            <div>
+                <label><button formnovalidate type="submit">Отправить</button>
+            </div>
+
+    </form>
+
+</html>
